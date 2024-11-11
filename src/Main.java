@@ -1,10 +1,13 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
+        System.out.println("Hello world!");
+        System.out.println("Hello world!");
+        System.out.println("Hello world!");
         System.out.println(isEven(1000));
     }
 
-    ///Checks if int is even steven
+    ///Checks if a number is even steven
     public static boolean isEven(int i){
         if(i == 0){
 
