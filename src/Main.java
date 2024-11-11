@@ -4,6 +4,7 @@ public class Main {
         System.out.println(isEven(1000));
     }
 
+    ///Checks if int is even steven
     public static boolean isEven(int i){
         if(i == 0){
 
@@ -13,7 +14,6 @@ public class Main {
 
             return false;
         }
-        //System.out.println(i);
         return isEven(i - 2);
     }
 }
