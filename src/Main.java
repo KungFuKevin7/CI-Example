@@ -8,6 +8,8 @@ public class Main {
     }
 
     ///Checks if a number is even steven
+    ///
+    ///
     public static boolean isEven(int i){
         if(i == 0){
 
